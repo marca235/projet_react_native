@@ -3,7 +3,7 @@ import React from "react";
 import { present } from "../../outils/fakeData";
 
 
-const Acceuil = () => {
+const Acceuil = ({navigation}) => {
   return (
     <View>
       <Text style={styles.titre}>Liste des donnees</Text>
